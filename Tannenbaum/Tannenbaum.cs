@@ -27,13 +27,13 @@
                 }
                 Console.WriteLine();
             }
-            for (int y = 7; y < b; ++y)
+            for (int y = b - 3; y < b; ++y)
             {
                 for (int x = 2; x < b; ++x)
                 {
                     Console.Write(e);
                 }
-                for (int x = 7; x < b; ++x)
+                for (int x = b - 3; x < b; ++x)
                 {
                     Console.Write(c);
                 }
